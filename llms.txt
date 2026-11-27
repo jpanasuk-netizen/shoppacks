@@ -16,3 +16,7 @@
 
 ## Contact
 - [Contact](https://shoppacks.net/contact.html): Jeremy Panasuk, New Auburn, WI — jpanasuk@gmail.com
+
+## Search this site (for agents)
+- Search endpoint: https://shoppacks.net/.well-known/search?q={query} (HTTP GET, or the HTTP QUERY method with the question as the body). It returns matching passages from this site as Markdown with source paths, not a generated answer. Provided by Cloudflare Search for Agents; docs: https://developers.cloudflare.com/ai-search/how-to/search-for-agents/
+- If that endpoint returns 404, it is not switched on yet; use the pages and topic map above instead.
